@@ -34,3 +34,4 @@ jobs:
           git add assets/stars-graph.svg
           git diff --cached --quiet || git commit -m "chore: update star history chart"
           git push origin HEAD:main
+          
